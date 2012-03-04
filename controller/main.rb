@@ -23,13 +23,3 @@ class MainController < Controller
     return 'There is no \'notemplate.xhtml\' associated with this action.'
   end
 end
-class TimesheetController < Controller
-  def initialize(repository)
-    @repository = repository
-  end
-  def index
-    @repository.find_all Timesheet
-  end
-end
-class Timesheet
-end
