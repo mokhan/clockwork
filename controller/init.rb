@@ -16,4 +16,4 @@ end
 #  end
 #
 require __DIR__('main')
-require __DIR__('timesheet')
+require __DIR__('project')
