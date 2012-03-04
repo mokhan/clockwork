@@ -1,15 +1,3 @@
-require 'developwithpassion_fakes'
-
-class TimesheetController
-  def initialize(repository)
-    @repository = repository
-  end
-  def index
-    @repository.find_all Timesheet
-  end
-end
-class Timesheet
-end
 describe TimesheetController do
   before do
     @repository = fake
