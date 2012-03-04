@@ -1,14 +1,25 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    bacon (1.1.0)
     innate (2011.12)
       rack (~> 1.4.0)
+    multi_json (1.1.0)
     rack (1.4.1)
+    rack-test (0.6.1)
+      rack (>= 1.0)
     ramaze (2011.12.28)
       innate (>= 2011.12)
+    simplecov (0.6.1)
+      multi_json (~> 1.0)
+      simplecov-html (~> 0.5.3)
+    simplecov-html (0.5.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  bacon
+  rack-test
   ramaze
+  simplecov
