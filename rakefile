@@ -1,0 +1,10 @@
+
+task :default => [:unit, :integration]
+
+task :unit do
+  sh "ruby spec/unit/all.rb"
+end
+
+task :integration do
+  sh "bacon spec/integration/all.rb"
+end
