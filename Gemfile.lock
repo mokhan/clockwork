@@ -2,6 +2,7 @@ GEM
   remote: http://rubygems.org/
   specs:
     bacon (1.1.0)
+    developwithpassion_fakes (0.0.2)
     innate (2011.12)
       rack (~> 1.4.0)
     multi_json (1.1.0)
@@ -20,6 +21,7 @@ PLATFORMS
 
 DEPENDENCIES
   bacon
+  developwithpassion_fakes
   rack-test
   ramaze
   simplecov
