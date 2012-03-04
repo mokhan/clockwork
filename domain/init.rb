@@ -4,7 +4,6 @@
 
 # Here go your requires for models:
 # require __DIR__('user')
-#require __DIR__('greeting')
 Dir[File.dirname(__FILE__) + '**/*.rb'].each do |file|
   load file unless file == __FILE__
 end
