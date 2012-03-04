@@ -1,8 +1,3 @@
-require 'ramaze'
-require 'ramaze/spec/bacon'
-
-require __DIR__('../../../app')
-
 describe MainController do
   behaves_like :rack_test
 
