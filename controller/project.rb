@@ -6,6 +6,3 @@ class ProjectController < Controller
     @query_builder.build(FindAllProjects).fetch
   end
 end
-class FindAllProjects
-
-end
