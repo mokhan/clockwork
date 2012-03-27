@@ -8,3 +8,7 @@ end
 task :integration do
   sh "bacon spec/integration/all.rb"
 end
+
+task :run do
+  sh "ramaze start"
+end
